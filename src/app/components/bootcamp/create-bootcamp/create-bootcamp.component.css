@@ -1,0 +1,12 @@
+.x{
+    margin-left: 500px;
+    margin-top: 500px;
+}
+.table-resp{
+    overflow: auto;
+    height: 420px;
+}
+.comple{
+    top: 100px;
+    position: relative;
+}

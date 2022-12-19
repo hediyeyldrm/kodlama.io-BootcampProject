@@ -1,0 +1,449 @@
+{
+  "applicant": [
+    {
+      "firstName": "Berkay ",
+      "lastName": "Anduv",
+      "email": "berkayanduv@gmail.com",
+      "password": "123456",
+      "nationalIdentity": "1231231",
+      "dateOfBirth": "1999-04-04",
+      "about": "Mezunun iş arıyorum.",
+      "id": 3
+    },
+    {
+      "firstName": "EMİR",
+      "lastName": "OMAK",
+      "email": "emiromak@gmail.com",
+      "password": "123456",
+      "nationalIdentity": "2123616",
+      "dateOfBirth": "2000-09-04",
+      "about": "mezunum iş arıyorum.",
+      "id": 4,
+      "img": "https://miro.medium.com/max/2400/1*LV8tB2fEYMSReispTnjcDw.jpeg",
+      "role": "roleApplicant",
+      "state": 1,
+      "userId": 2
+    },
+    {
+      "firstName": "Beyza",
+      "lastName": "Alıcı",
+      "email": "beyzaalici@gmail.com",
+      "password": "123456",
+      "nationalIdentity": "2123616",
+      "dateOfBirth": "2000-05-31",
+      "about": "325125",
+      "id": 5,
+      "img": "https://avatars.githubusercontent.com/u/77552400?v=4",
+      "role": "roleApplicant",
+      "state": 1,
+      "userId": 3
+    },
+    {
+      "firstName": "Hediye",
+      "lastName": "Yıldırım",
+      "email": "hediyeyildirim@gmail.com",
+      "password": "123456",
+      "nationalIdentity": "2123616",
+      "dateOfBirth": "1999-11-17",
+      "about": "325125",
+      "img": "https://avatars.githubusercontent.com/u/49349272?v=4",
+      "id": 2,
+      "state": 1,
+      "userId": 4
+    }
+  ],
+  "employee": [
+    {
+      "firstName": "beyza",
+      "lastName": "asdsada",
+      "email": "beyza@gmail.com",
+      "password": "12345",
+      "nationalIdentity": "asdasd",
+      "dateOfBirth": "2022-12-30",
+      "position": "qweqwe",
+      "id": 4,
+      "role": "roleAdmin"
+    },
+    {
+      "firstName": "Hediye",
+      "lastName": "Yıldırım",
+      "email": "hediye@hotmail.com",
+      "password": "654554",
+      "nationalIdentity": "23165498984",
+      "dateOfBirth": "2121-03-12",
+      "position": "GİFT",
+      "id": 5
+    }
+  ],
+  "instructor": [
+    {
+      "firstName": "Engin",
+      "lastName": "Demiroğ",
+      "email": "engindemirog@x",
+      "password": "12345",
+      "image": "https://pbs.twimg.com/profile_images/1404479261566713856/_MklDkhx_400x400.jpg",
+      "nationalIdentity": "asdas",
+      "dateOfBirth": "2022-12-31",
+      "companyName": "Kodlama.io",
+      "id": 3,
+      "role": "roleInstructor"
+    },
+    {
+      "firstName": "Atıl",
+      "lastName": "Samancıoğlu",
+      "email": "atilsamancioglu@x",
+      "password": "12345",
+      "image": "https://pbs.twimg.com/media/EgqVpF1XcAAwDsE.jpg",
+      "nationalIdentity": "489489789",
+      "dateOfBirth": "1999-04-04",
+      "companyName": "Turkcell",
+      "id": 4,
+      "role": "roleInstructor"
+    },
+    {
+      "firstName": "Angela",
+      "lastName": "YU",
+      "email": "angela@x",
+      "password": "123456",
+      "image": "https://pbs.twimg.com/profile_images/1523987597751726081/XuQeo7gC_400x400.jpg",
+      "nationalIdentity": "11111111111",
+      "dateOfBirth": "1992-07-12",
+      "companyName": "Udemy",
+      "id": 5,
+      "role": "roleInstructor"
+    },
+    {
+      "firstName": "Berkay",
+      "lastName": "Anduv",
+      "email": "berkayanduv@x",
+      "password": "123456789",
+      "image": "https://pbs.twimg.com/profile_images/1028670681620340736/u2U89A2c_400x400.jpg",
+      "nationalIdentity": "3532532532",
+      "dateOfBirth": "0404-04-04",
+      "companyName": "Microsoft",
+      "id": 6
+    }
+  ],
+  "blackList": [
+    {
+      "firstName": "Emircan ",
+      "lastName": "Omak",
+      "applicantId": "",
+      "date": "12.12.2022",
+      "reason": "Yaramaz",
+      "id": 1
+    },
+    {
+      "firstName": "Berkay",
+      "lastName": "Anduv",
+      "applicantId": "",
+      "date": "09.09.2022",
+      "reason": "Hakaret",
+      "id": 2
+    }
+  ],
+  "bootcamp": [
+    {
+      "instructorId": "3",
+      "name": "Angular",
+      "dateStart": "2022-06-25",
+      "dateEnd": "2022-12-29",
+      "state": 2,
+      "instructorName": "EnginDemiroğ",
+      "id": 1,
+      "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png"
+    },
+    {
+      "instructorId": "1",
+      "name": "Kotlin",
+      "dateStart": "2022-12-10",
+      "dateEnd": "2023-01-13",
+      "state": 1,
+      "id": 4,
+      "instructorName": "Atıl Samancıoğlu",
+      "img": "https://static-00.iconduck.com/assets.00/kotlin-icon-512x512-0o0lfw0b.png"
+    },
+    {
+      "instructorId": "4",
+      "name": "Siber Güvenlik",
+      "dateStart": "2022-12-07",
+      "dateEnd": "2022-12-31",
+      "state": 1,
+      "instructorName": "AtılSamancıoğlu",
+      "id": 5,
+      "img": "https://cdn-icons-png.flaticon.com/512/6783/6783360.png"
+    },
+    {
+      "instructorId": "4",
+      "name": "Java Bootcamp",
+      "dateStart": "2022-12-20",
+      "dateEnd": "2022-12-31",
+      "state": "2",
+      "instructorName": "AtılSamancıoğlu",
+      "id": 7,
+      "img": "https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+    },
+    {
+      "instructorId": "6",
+      "name": "VS CODE",
+      "dateStart": "0404-04-04",
+      "dateEnd": "11111-11-11",
+      "state": "1",
+      "instructorName": "BerkayAnduv",
+      "id": 8,
+      "img": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
+    },
+    {
+      "instructorId": "6",
+      "name": "Amazon AWS",
+      "dateStart": "2202-12-12",
+      "dateEnd": "2023-12-12",
+      "state": "1",
+      "instructorName": "BerkayAnduv",
+      "id": 9,
+      "img": "https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Non-Service_Specific_copy__AWS_Cloud-512.png"
+    }
+  ],
+  "application": [
+    {
+      "bootcampId": 1,
+      "bootcampName": "Angular",
+      "userName": "EnginDemiroğ",
+      "state": 1,
+      "userId": "1",
+      "applyName": "Beyza",
+      "id": 1
+    },
+    {
+      "bootcampId": 3,
+      "bootcampName": "HTML-CSS",
+      "userName": "AngelaYU",
+      "state": 1,
+      "userId": "1",
+      "applyName": "Beyza",
+      "id": 2
+    },
+    {
+      "bootcampId": 4,
+      "bootcampName": "Angular",
+      "userName": "Atıl Samancıoğlu",
+      "state": 1,
+      "userId": "1",
+      "applyName": "Emir",
+      "id": 4
+    },
+    {
+      "bootcampId": 4,
+      "bootcampName": "Kotlin",
+      "userName": "Atıl Samancıoğlu",
+      "state": 1,
+      "userId": "1",
+      "applyName": "Beyza",
+      "id": 5
+    },
+    {
+      "bootcampId": 4,
+      "bootcampName": "Kotlin",
+      "userName": "Atıl Samancıoğlu",
+      "state": 1,
+      "userId": "6",
+      "applyName": null,
+      "id": 6
+    },
+    {
+      "bootcampId": 1,
+      "bootcampName": "Angular",
+      "userName": "EnginDemiroğ",
+      "state": 1,
+      "userId": "6",
+      "applyName": null,
+      "id": 7
+    },
+    {
+      "bootcampId": 8,
+      "bootcampName": "VS CODE",
+      "userName": "BerkayAnduv",
+      "state": 1,
+      "userId": "6",
+      "applyName": null,
+      "id": 8
+    },
+    {
+      "bootcampId": 9,
+      "bootcampName": "Amazon AWS",
+      "userName": "BerkayAnduv",
+      "state": 1,
+      "userId": "6",
+      "applyName": null,
+      "id": 9
+    },
+    {
+      "bootcampId": 1,
+      "bootcampName": "Angular",
+      "userName": "EnginDemiroğ",
+      "state": 1,
+      "userId": "6",
+      "applyName": null,
+      "id": 10
+    },
+    {
+      "bootcampId": 4,
+      "bootcampName": "Kotlin",
+      "userName": "Atıl Samancıoğlu",
+      "state": 1,
+      "userId": "6",
+      "applyName": null,
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Emir",
+      "lastName": "Omak",
+      "email": "emiromak@gmail.com",
+      "password": "abbasyanbasan",
+      "expiration": "lololololo",
+      "token": "EMROMKEMROMKEMROM44K44",
+      "role": "roleApplicant",
+      "fullName": "Emir Omak",
+      "localImg": "https://media-exp1.licdn.com/dms/image/C4D03AQF1im85b9TfiA/profile-displayphoto-shrink_800_800/0/1654860685373?e=1675900800&v=beta&t=bE7KtABkXGKsXJtbH1vNlUMtvLBJVmtpNeGdTIEqI2Y"
+    },
+    {
+      "id": 1,
+      "name": "Emir",
+      "lastName": "Omak",
+      "email": "emiromak@hotmail.com",
+      "password": "abbasyanbasan",
+      "expiration": "lololololo",
+      "token": "EMROMKEMROMKEMROM44K44",
+      "role": "roleAdmin",
+      "fullName": "Emir Omak",
+      "localImg": "https://media-exp1.licdn.com/dms/image/C4D03AQF1im85b9TfiA/profile-displayphoto-shrink_800_800/0/1654860685373?e=1675900800&v=beta&t=bE7KtABkXGKsXJtbH1vNlUMtvLBJVmtpNeGdTIEqI2Y"
+    },
+    {
+      "id": 1,
+      "name": "Beyza",
+      "lastName": "Alıcı",
+      "email": "beyza17@gmail.com",
+      "password": "beyza123",
+      "expiration": "lololololo",
+      "token": "EMROMKEMROMKEMROM44K44",
+      "role": "roleApplicant",
+      "fullName": "Beyza Alıcı",
+      "localImg": "https://i.ibb.co/6tncw2N/beyzaimg.jpg"
+    },
+    {
+      "id": 2,
+      "email": "emircan@gmail.com",
+      "name": "Emircan",
+      "lastName": "Omak",
+      "password": "1243",
+      "expiration": "dsgdsgdsg",
+      "token": "32532532532",
+      "role": "roleInstructor",
+      "fullName": "Emircan Omak",
+      "localImg": "https://media-exp1.licdn.com/dms/image/C4D03AQF1im85b9TfiA/profile-displayphoto-shrink_800_800/0/1654860685373?e=1675900800&v=beta&t=bE7KtABkXGKsXJtbH1vNlUMtvLBJVmtpNeGdTIEqI2Y"
+    },
+    {
+      "id": 2,
+      "email": "berkayanduv@hotmail.com",
+      "name": "Berkay",
+      "lastName": "Anduv",
+      "password": "123",
+      "expiration": "dsgdsgdsg",
+      "token": "32532532532",
+      "role": "roleInstructor",
+      "fullName": "Berkay Anduv",
+      "localImg": "https://pbs.twimg.com/profile_images/1028670681620340736/u2U89A2c_400x400.jpg"
+    },
+    {
+      "id": 3,
+      "email": "hediye@hotmail.com",
+      "name": "hediye",
+      "lastName": "yıldırım",
+      "password": "123",
+      "expiration": "dsgdsgdsg",
+      "token": "32532532532",
+      "role": "roleAdmin",
+      "fullName": "Hediye Yıldırım",
+      "localImg": "https://media-exp1.licdn.com/dms/image/D4D03AQElc-OsTbG7GA/profile-displayphoto-shrink_400_400/0/1668838419255?e=1675900800&v=beta&t=1riJTvZmAQ4vxYAt1t6jkQdWK6so0ezNP7JALJEFhNo"
+    },
+    {
+      "id": 4,
+      "email": "beyza@gmail.comdasd",
+      "name": "Beyza",
+      "lastName": "Alıcı",
+      "password": "123",
+      "expiration": "dsgdsgdsg",
+      "token": "76976976",
+      "role": "roleAdmin",
+      "fullName": "Beyza Alıcı",
+      "localImg": "https://i.ibb.co/6tncw2N/beyzaimg.jpg"
+    },
+    {
+      "id": 5,
+      "email": "sygrok@yahoo.com",
+      "name": "Berkay",
+      "lastName": "Anduv",
+      "password": "123456",
+      "token": "76976976",
+      "role": "roleAdmin",
+      "fullName": "Berkay Anduv",
+      "localImg": "https://media-exp1.licdn.com/dms/image/C4D03AQH83fM5PxrPlw/profile-displayphoto-shrink_800_800/0/1655934601813?e=2147483647&v=beta&t=j4BzMJo3cyKnFi_zvptr9hYVW9GfhlX-4jMgAATCbNI"
+    },
+    {
+      "id": 6,
+      "email": "emirromak@gmail.com",
+      "name": "Emir",
+      "lastName": "Omak",
+      "password": "12346",
+      "token": "dshajkfhjasjhfksajk",
+      "role": "roleApplicant",
+      "fullName": "Emir Omak",
+      "localImg": "https://media-exp1.licdn.com/dms/image/C4D03AQF1im85b9TfiA/profile-displayphoto-shrink_800_800/0/1654860685373?e=1675900800&v=beta&t=bE7KtABkXGKsXJtbH1vNlUMtvLBJVmtpNeGdTIEqI2Y"
+    },
+    {
+      "id": 7,
+      "email": "hasan@xxx",
+      "name": "hasanc",
+      "lastName": "haşmett",
+      "password": "123456",
+      "token": "dshajkfhjasjhfksajk",
+      "role": "roleApplicant",
+      "localImg": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png",
+      "fullName": "hfsjakhfjksa"
+    },
+    {
+      "id": 8,
+      "email": "kk@gmail.com",
+      "name": "baran",
+      "lastName": "yanık",
+      "password": "123",
+      "token": "dshajkfhjasjhfksajk",
+      "role": "roleAdmin",
+      "localImg": "https://www.seekpng.com/png/detail/41-410093_circled-user-icon-user-profile-icon-png.png"
+    },
+    {
+      "id": 9,
+      "email": "xcvb@hotmail.com",
+      "name": "xcvb",
+      "lastName": "xcvb7",
+      "password": "123456",
+      "token": "dshajkfhjasjhfksajk",
+      "role": "roleApplicant",
+      "localImg": "https://www.seekpng.com/png/detail/41-410093_circled-user-icon-user-profile-icon-png.png",
+      "fullName": "XCVB"
+    },
+    {
+      "id": 10,
+      "email": "elifnisa@gmail.com",
+      "name": "Elif Nisa",
+      "lastName": "Alıcı",
+      "password": "1234567",
+      "token": "dshajkfhjasjhfksajk",
+      "role": "roleApplicant",
+      "localImg": "https://www.seekpng.com/png/detail/41-410093_circled-user-icon-user-profile-icon-png.png"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+ <div class="container-fluid py-4 cont-resp "> 
+  <div class="row">
+    <div class="col-12">
+      <div class="card mb-4">
+        <div class="card-header pb-0">
+          <h6 style="float:left; font-size: 2rem;">Kara Liste <button type="button"  class="btn-lg btn btn-outline-dark"
+            routerLink="add-blacklist">Engelle</button></h6>
+        </div>
+        <div class="card-body px-0 pt-0 pb-2">
+          <div class="table-responsive p-0 table-resp">
+            <table class="table align-items-center mb-0">
+              <thead>
+                <tr class="text-center">
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-dark ps-2">Aday Adı</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder text-dark">Tarih</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder text-dark">Neden</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder text-dark"> İşlemler</th>
+
+                
+                </tr>
+              </thead>
+              <tbody *ngFor="let blacklist of blacklists" class="text-center">
+                <tr>
+              
+                  <td class="align-middle text-center text-sm">
+                    <span class="mb-0 text-sm">{{blacklist.firstName}} {{blacklist.lastName}}</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">{{blacklist.date}}</span>
+                  </td>
+                  <td class="align-middle">
+                    <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                      {{blacklist.reason}}
+                    </a>
+                  </td>
+
+                <td>
+                  <div>
+                    <button type="button" class=" btn btn-outline-dark mx-3"
+                      routerLink="blacklist-detail/{{blacklist.id}}">Detay</button>
+                    <button type="button" class=" btn btn-outline-dark mx-3"
+                      routerLink="update-blacklist/{{blacklist.id}}">Düzenle</button>
+                    <button type="button" class=" btn btn-outline-dark mx-3"  (click)="deleteBlacklist(blacklist)">Sil</button>
+                  </div>
+          
+                </td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
